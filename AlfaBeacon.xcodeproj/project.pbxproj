@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B2A1A6BC19C6E8E67FC143 /* Pods_AlfaBeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F9E7CB9EA83D302A95380E /* Pods_AlfaBeacon.framework */; };
 		B20FBA4A2079D0F000654BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FBA492079D0F000654BEE /* AppDelegate.swift */; };
-		B20FBA4C2079D0F000654BEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FBA4B2079D0F000654BEE /* ViewController.swift */; };
 		B20FBA4F2079D0F000654BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20FBA4D2079D0F000654BEE /* Main.storyboard */; };
 		B20FBA522079D0F000654BEE /* AlfaBeacon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B20FBA502079D0F000654BEE /* AlfaBeacon.xcdatamodeld */; };
 		B20FBA542079D0F100654BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20FBA532079D0F100654BEE /* Assets.xcassets */; };
 		B20FBA572079D0F100654BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20FBA552079D0F100654BEE /* LaunchScreen.storyboard */; };
+		B20FBA5F207B5DF500654BEE /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FBA5E207B5DF500654BEE /* ScannerViewController.swift */; };
+		B20FBA61207B612D00654BEE /* ScannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FBA60207B612D00654BEE /* ScannerTableViewCell.swift */; };
+		B2791BE220C570920018C02D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2791BE120C570920018C02D /* CoreBluetooth.framework */; };
+		B2791BE420C57BA40018C02D /* LeDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2791BE320C57BA40018C02D /* LeDevice.swift */; };
+		B2791BE620C595970018C02D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2791BE520C595970018C02D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29F9E7CB9EA83D302A95380E /* Pods_AlfaBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlfaBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8701611768EA0438E2F7F0D8 /* Pods-AlfaBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaBeacon/Pods-AlfaBeacon.release.xcconfig"; sourceTree = "<group>"; };
+		9E0CA3363174501C4632360E /* Pods-AlfaBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaBeacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaBeacon/Pods-AlfaBeacon.debug.xcconfig"; sourceTree = "<group>"; };
 		B20FBA462079D0F000654BEE /* AlfaBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlfaBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20FBA492079D0F000654BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B20FBA4B2079D0F000654BEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B20FBA4E2079D0F000654BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B20FBA512079D0F000654BEE /* AlfaBeacon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlfaBeacon.xcdatamodel; sourceTree = "<group>"; };
 		B20FBA532079D0F100654BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20FBA562079D0F100654BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20FBA582079D0F100654BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20FBA5E207B5DF500654BEE /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		B20FBA60207B612D00654BEE /* ScannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerTableViewCell.swift; sourceTree = "<group>"; };
+		B2791BE120C570920018C02D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B2791BE320C57BA40018C02D /* LeDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeDevice.swift; sourceTree = "<group>"; };
+		B2791BE520C595970018C02D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2791BE620C595970018C02D /* CoreLocation.framework in Frameworks */,
+				B2791BE220C570920018C02D /* CoreBluetooth.framework in Frameworks */,
+				25B2A1A6BC19C6E8E67FC143 /* Pods_AlfaBeacon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				B20FBA482079D0F000654BEE /* AlfaBeacon */,
 				B20FBA472079D0F000654BEE /* Products */,
+				B8F16220D86F61649C44C058 /* Pods */,
+				D1577EBD608B13F36740B965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,36 @@
 		B20FBA482079D0F000654BEE /* AlfaBeacon */ = {
 			isa = PBXGroup;
 			children = (
-				B20FBA492079D0F000654BEE /* AppDelegate.swift */,
-				B20FBA4B2079D0F000654BEE /* ViewController.swift */,
-				B20FBA4D2079D0F000654BEE /* Main.storyboard */,
 				B20FBA532079D0F100654BEE /* Assets.xcassets */,
+				B20FBA4D2079D0F000654BEE /* Main.storyboard */,
 				B20FBA552079D0F100654BEE /* LaunchScreen.storyboard */,
+				B20FBA492079D0F000654BEE /* AppDelegate.swift */,
+				B20FBA5E207B5DF500654BEE /* ScannerViewController.swift */,
+				B20FBA60207B612D00654BEE /* ScannerTableViewCell.swift */,
 				B20FBA582079D0F100654BEE /* Info.plist */,
 				B20FBA502079D0F000654BEE /* AlfaBeacon.xcdatamodeld */,
+				B2791BE320C57BA40018C02D /* LeDevice.swift */,
 			);
 			path = AlfaBeacon;
+			sourceTree = "<group>";
+		};
+		B8F16220D86F61649C44C058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E0CA3363174501C4632360E /* Pods-AlfaBeacon.debug.xcconfig */,
+				8701611768EA0438E2F7F0D8 /* Pods-AlfaBeacon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1577EBD608B13F36740B965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2791BE520C595970018C02D /* CoreLocation.framework */,
+				B2791BE120C570920018C02D /* CoreBluetooth.framework */,
+				29F9E7CB9EA83D302A95380E /* Pods_AlfaBeacon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B20FBA5B2079D0F100654BEE /* Build configuration list for PBXNativeTarget "AlfaBeacon" */;
 			buildPhases = (
+				04BC15880401F18C7D580F6F /* [CP] Check Pods Manifest.lock */,
 				B20FBA422079D0F000654BEE /* Sources */,
 				B20FBA432079D0F000654BEE /* Frameworks */,
 				B20FBA442079D0F000654BEE /* Resources */,
+				25C94B60BC01ACC011BECDAA /* [CP] Embed Pods Frameworks */,
+				8863BA5447736F5A4A62D93F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04BC15880401F18C7D580F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlfaBeacon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25C94B60BC01ACC011BECDAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlfaBeacon/Pods-AlfaBeacon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlfaBeacon/Pods-AlfaBeacon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8863BA5447736F5A4A62D93F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlfaBeacon/Pods-AlfaBeacon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B20FBA422079D0F000654BEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20FBA4C2079D0F000654BEE /* ViewController.swift in Sources */,
 				B20FBA4A2079D0F000654BEE /* AppDelegate.swift in Sources */,
+				B2791BE420C57BA40018C02D /* LeDevice.swift in Sources */,
 				B20FBA522079D0F000654BEE /* AlfaBeacon.xcdatamodeld in Sources */,
+				B20FBA61207B612D00654BEE /* ScannerTableViewCell.swift in Sources */,
+				B20FBA5F207B5DF500654BEE /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +379,7 @@
 		};
 		B20FBA5C2079D0F100654BEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0CA3363174501C4632360E /* Pods-AlfaBeacon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +398,7 @@
 		};
 		B20FBA5D2079D0F100654BEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8701611768EA0438E2F7F0D8 /* Pods-AlfaBeacon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
